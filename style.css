@@ -4,9 +4,15 @@
   box-sizing: border-box;
 }
 
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .subscribe-btn {
   padding: 10px 15px;
-  background: #ff0000;
+  background: rgb(204, 0, 0);
   height: 36px;
   color: white;
   border: none;
@@ -14,6 +20,7 @@
   cursor: pointer;
   font-weight: 500;
   transition: opacity 150ms;
+  vertical-align: top;
 }
 
 .subscribe-btn:hover {
@@ -37,8 +44,7 @@
 }
 
 .join-btn {
-  height: 35px;
-  width: 60px;
+  padding: 10px 15px;
   color: rgb(41, 118, 211);
   background-color: white;
   border: 1.5px solid rgb(41, 118, 211);
@@ -46,6 +52,7 @@
   cursor: pointer;
   font-weight: 600;
   transition: all 500ms;
+  margin-bottom: 50px;
 }
 
 .join-btn:hover {
@@ -59,4 +66,46 @@
   color: white;
   transition: 100ms;
   border: none;
+}
+
+.video-title {
+  font-weight: bold;
+  font-size: 18px;
+  width: 300px;
+  line-height: 130%;
+  margin-bottom: 5px;
+  /* text-align: center;*/
+}
+
+.video-details {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 20px;
+}
+
+.video-creator {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 20px;
+}
+
+.video-description {
+  width: 280px;
+  font-size: 14px;
+  line-height: 135%;
+  color: rgb(96, 96, 96);
+  margin-bottom: 100px;
+}
+
+.apple-text {
+  color: rgb(96, 96, 96);
+  color: white;
+  background-color: red;
+  text-align: center;
+  padding: 18px 10px;
+}
+
+.styled-element:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
