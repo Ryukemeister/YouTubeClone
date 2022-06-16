@@ -3,3 +3,11 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+.messi-image {
+  display: block;
+}
+
+.search-btn {
+  display: block;
+}
